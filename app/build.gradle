@@ -1,0 +1,128 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "edu.uci.cs297p.arfurniture"
+
+        // Sceneform requires minSdkVersion >= 24.
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    // Sceneform libraries use language constructs from Java 8.
+    // Add these compile options if targeting minSdkVersion < 26.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    // Provides ArFragment, and other Sceneform UX resources:
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.13.0"
+
+    // Use the Sceneform UX Package built from the source files included in the sceneformux folder.
+    //api project(":sceneformux")
+
+    // Alternatively, use ArSceneView without the UX dependency.
+    //implementation "com.google.ar.sceneform:core:1.12.0"
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'me.relex:circleindicator:1.3.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation "com.github.skydoves:colorpickerview:2.1.5"
+
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.google.firebase:firebase-firestore:21.3.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.yigitserin.currencyedittext:CurrencyEditText:0.3'
+}
+
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+/*sceneform.asset('sampledata/chair_0/Chair_HighBack_OBJ.obj',
+        'default',
+        'sampledata/chair_0/Chair_HighBack_OBJ.sfa',
+        'src/main/assets/chair/chair_0')*/
+
+/*sceneform.asset('sampledata/table_0/stolic.obj',
+        'default',
+        'sampledata/table_0/stolic.sfa',
+        'src/main/assets/table/table_0')*/
+
+apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
+
+
+
+sceneform.asset('sampledata/table_1/11762_Earrings_v1_l2.obj',
+        'default',
+        'sampledata/table_1/11762_Earrings_v1_l2.sfa',
+        'src/main/assets/table/table_1')
+
+sceneform.asset('sampledata/table_0/11763_earings_v1_L1.obj',
+        'default',
+        'sampledata/table_0/11763_earings_v1_L1.sfa',
+        'src/main/assets/table/table_0')
+
+sceneform.asset('sampledata/chair_0/RTFKTChallenge7.obj',
+        'default',
+        'sampledata/chair_0/RTFKTChallenge7.sfa',
+        'src/main/assets/chair/chair_0')
+
+
+
+sceneform.asset('sampledata/chair_1/Textures/Stillettos_01.obj',
+        'default',
+        'sampledata/chair_1/Textures/Stillettos_01.sfa',
+        'src/main/assets/chair/chair_1')
+
+
+
+sceneform.asset('sampledata/chair_2/Sneakers.obj',
+        'default',
+        'sampledata/chair_2/Sneakers.sfa',
+        'src/main/assets/chair/chair_2')
+
+sceneform.asset('sampledata/bed_0/Sunglasses.obj',
+        'default',
+        'sampledata/bed_0/Sunglasses.sfa',
+        'src/main/assets/bed/bed_0')
+
+sceneform.asset('sampledata/bed_1/oculos.obj',
+        'default',
+        'sampledata/bed_1/oculos.sfa',
+        'src/main/assets/bed/bed_1')
+
+sceneform.asset('sampledata/sofa_1/santa_hat(DEFAULT).obj',
+        'default',
+        'sampledata/sofa_1/santa_hat(DEFAULT).sfa',
+        'src/main/assets/sofa/sofa_1')
+
+sceneform.asset('sampledata/sofa_0/Cap.obj',
+        'default',
+        'sampledata/sofa_0/Cap.sfa',
+        'src/main/assets/sofa/sofa_0')
+
+sceneform.asset('sampledata/storage_0/11801_Watch_v1_l2.obj',
+        'default',
+        'sampledata/storage_0/11801_Watch_v1_l2.sfa',
+        'src/main/assets/storage/storage_0')
+
+
+
+sceneform.asset('sampledata/storage_1/11800_watches_v1_l2.obj',
+        'default',
+        'sampledata/storage_1/11800_watches_v1_l2.sfa',
+        'src/main/assets/storage/storage_1')

@@ -1,0 +1,50 @@
+# Blender MTL File: 'RTFKTChallenge4_V1_002.blend'
+# Material Count: 4
+
+newmtl G1
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G1_BaseColor.jpg
+map_Ns C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G1_Roughness.jpg
+
+newmtl G2
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G2_BaseColor.jpg
+map_Ns C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G2_Roughness.jpg
+
+newmtl G3
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G3_BaseColor.jpg
+map_Ns C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G3_Roughness.jpg
+
+newmtl G4
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G4_BaseColor.jpg
+map_Ns C:\\Users\\Belzar\\Documents\\Allegorithmic\\Substance Painter\\export\\shoe_5\\G4_Roughness.jpg

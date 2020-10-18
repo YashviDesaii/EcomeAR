@@ -1,0 +1,68 @@
+{
+  materials: [
+    {
+      name: '11762_Earings_metall',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.18429999999999999,
+            0.18429999999999999,
+            0.18429999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.23249500000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '11762_Earings_beads',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.10979999999999999,
+            0.61570000000000003,
+            0.87450000000000006,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.22941600000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/table_1/11762_Earrings_v1_l2.obj',
+    name: '11762_Earrings_v1_l2',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}

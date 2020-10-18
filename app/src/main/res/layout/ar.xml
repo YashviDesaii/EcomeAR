@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uci.cs297p.arfurniture.ARActivity">
+
+    <fragment
+        android:id="@+id/ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/item_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/color_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@color/slate_blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:text="@string/ar_color_button_text"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@color/slate_blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:text="@android:string/cancel"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@color/slate_blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:text="@android:string/ok"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</FrameLayout>

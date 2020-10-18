@@ -1,0 +1,175 @@
+{
+  materials: [
+    {
+      name: 'G1',
+      parameters: [
+        {
+          baseColor: 'G1_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'G2',
+      parameters: [
+        {
+          baseColor: 'G2_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'G3',
+      parameters: [
+        {
+          baseColor: 'G3_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'G4',
+      parameters: [
+        {
+          baseColor: 'G4_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/chair_0/RTFKTChallenge7.obj',
+    name: 'RTFKTChallenge7',
+    recenter: 'root',
+    scale: 0.083194000000000004,
+  },
+  samplers: [
+    {
+      file: 'sampledata/chair_0\\G1_BaseColor.jpeg',
+      name: 'G1_BaseColor',
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G1_BaseColor.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G3_BaseColor.jpeg',
+      name: 'G3_BaseColor',
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G3_BaseColor.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G1_Roughness.jpeg',
+      name: 'G1_Roughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G1_Roughness.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G4_Roughness.jpeg',
+      name: 'G4_Roughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G4_Roughness.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G2_BaseColor.jpeg',
+      name: 'G2_BaseColor',
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G2_BaseColor.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G2_Roughness.jpeg',
+      name: 'G2_Roughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G2_Roughness.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G3_Roughness.jpeg',
+      name: 'G3_Roughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G3_Roughness.jpg',
+    },
+    {
+      file: 'sampledata/chair_0\\G4_BaseColor.jpeg',
+      name: 'G4_BaseColor',
+      pipeline_name: 'C:\\\\Users\\\\Belzar\\\\Documents\\\\Allegorithmic\\\\Substance Painter\\\\export\\\\shoe_5\\\\G4_BaseColor.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
